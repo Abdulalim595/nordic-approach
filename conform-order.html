@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm order</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/roc-grotesk/stylesheet.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body style="background-color: #FAFBFC;">
+  <div class="body__overlay"></div>
+  <!-- ===================== HEADER AREA START ===================== -->
+  <header id="header__area" class="header__area">
+    <div class="container">
+      <div class="header__wrap">
+        <div class="header__logo">
+          <a href="#"><img src="assets/img/logo.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ===================== HEADER AREA END ===================== -->
+
+  <!-- ===================== MAIN AREA START ===================== -->
+  <main class="overflow-hidden main">
+    <!-- ===================== Customer-Information AREA START ===================== -->
+    <section id="invoices__area" class="invoices__area">
+      <div class="container">
+        <div class="information__title">
+          <a href="#"><span><i class="fa-sharp fa-regular fa-arrow-left-long"></i></span> Keep shopping</a>
+        </div>
+        <div class="thanks__wrap">
+          <div class="information__left__title">
+            <h2>Thanks for your order!</h2>
+          </div>
+          <div class="thanks__content">
+            <div class="order__no"><p>Ordre Nr.</p> <span>0000000001</span></div>
+            <p>Du vil motta en bestillingsbekreftelse på e-post. Gå inn på “min bruker” for å følge ordren.</p>
+            <a href="#" class="payment">Keep shopping</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== Customer-Information AREA END ===================== -->
+  </main>
+  <!-- ===================== MAIN AREA END ===================== -->
+
+  <!-- ===================== FOOTER AREA START ===================== -->
+  <footer id="footer__area" class="footer__area">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <div class="footer__content">
+              <a href="#"><img src="assets/img/footer_logo.png" alt=""></a>
+              <div class="footer__contact">
+                <div class="contact__first">
+                  <h6><b>Adress</b></h6>
+                  <p>Tøyengata 29, 0578 Oslo, Norway <br>Mon - Fri, 8:00 - 16:00 CET</p>
+                </div>
+
+                <div class="contact__first">
+                  <h6><b>Get in touch</b></h6>
+                  <p>
+                    <a href="tel:4745874500">+47 458 74 500</a><br>
+                    <a href="mailto:">coffee@nordicapproach.no</a>
+                  </p>
+                </div>
+                <div class="footer__social">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer__list">
+              <ul>
+                <li><a href="#">Link En</a></li>
+                <li><a href="#">Link To</a></li>
+                <li><a href="#">Link Tre</a></li>
+                <li><a href="#">Link Fire</a></li>
+                <li><a href="#">Link Fem</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Link Seks</a></li>
+                <li><a href="#">Link Syv</a></li>
+                <li><a href="#">Link Atte</a></li>
+                <li><a href="#">Link Ni</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>2023 Nordic Approach. All rights reserved.</span>
+        <div class="privacy__policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Coolies Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ===================== FOOTER AREA END ===================== -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <script>
+    AOS.init();
+    // data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: "aos-init", // class applied after initialization
+      animatedClassName: "aos-animate", // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
+</body>
+
+</html>

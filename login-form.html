@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/roc-grotesk/stylesheet.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body style="background-color: #FAFBFC;">
+  <div class="body__overlay"></div>
+  <!-- ===================== OFFCANVAS AREA START ===================== -->
+  <div class="offcanvas-area">
+    <div class="menu-close">
+      <i class="far fa-times"></i>
+    </div>
+    <div class="offcanvas-menu">
+      <div class="main-menu">
+        <ul class="d-block">
+          <li><a href="#">Offer list</a></li>
+          <li><a href="#">Transparency</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas-overlay"></div>
+  <!-- ===================== OFFCANVAS AREA END ===================== -->
+
+  <!-- ===================== HEADER AREA START ===================== -->
+  <header id="header__area" class="header__area">
+    <div class="container">
+      <div class="header__wrap">
+        <div class="header__logo">
+          <a href="#"><img src="assets/img/logo.png" alt=""></a>
+        </div>
+        <ul class="d-none d-lg-flex">
+          <li><a href="#">Offer list</a></li>
+          <li><a href="#">Transparency</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="header__btns">
+          <div class="search__close d-none d-lg-block">
+            <a href="#" class="search"><img src="assets/img/glass.png" alt=""></a>
+            <a href="#" class="close"><i class="fa-regular fa-xmark"></i></a>
+          </div>
+          <div class="header__info">
+            <a href="#" class="notification"><i class="fa-sharp fa-regular fa-cart-shopping"></i></a>
+            <div class="notification__area d-none d-md-block">
+              <div class="notification__content">
+                <div class="order__summary order__summary2">
+                  <h6>My cart</h6>
+                  <div class="order__net">
+                    <div class="order__date">
+                      <ul>
+                        <li><p><span>BR-22-0017</span><br>Mortens amazing coffee</p></li>
+                        <li><span>1 stk x 30kg</span></li>
+                        <li><span class="net__amount">1499,00 kr</span></li>
+                      </ul>
+                      <ul>
+                        <li><p><span>BR-22-0017</span><br>Los Mangos Organic</p></li>
+                        <li><span>2 stk x 30kg</span></li>
+                        <li><span class="net__amount">2999,00 kr</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="order__price order__price2">
+                    <ul>
+                      <li>Subtotal:</li>
+                      <li>$ 450,00</li>
+                    </ul>
+                    <ul>
+                      <li>Taxes:</li>
+                      <li>$ 67,50</li>
+                    </ul>
+                  </div>
+                  <div class="price__total">
+                    <h5>Total</h5>
+                    <div class="total__price">
+                      <h5>5560,00 kr</h5>
+                      <span>Ekskl. MVA</span>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-primary cart" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    View Cart (3 items)
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__bar d-lg-none d-block">
+            <a href="#">Menu <span><i class="fa-solid fa-bars"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ===================== HEADER AREA END ===================== -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-cart2">
+      <div class="modal-content modal-content-cart2">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span><i class="fa-sharp fa-regular fa-xmark"></i></span></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal__content__btn modal__content__btn__cart">
+            <div class="modal__content modal__content__cart">
+              <h5>Add to card</h5>
+              <div class="modal__price__list">
+                <div class="modal__price__title">
+                  <h6>Product</h6>
+                  <div class="quantity__price">
+                    <h6>Quantity</h6>
+                    <h6>Price</h6>
+                  </div>
+                </div>
+                <ul>
+                  <li><span>BR-22-0017</span> <p>Mortens amazing coffee</p></li>
+                  <li>
+                    <div class="price__quantity">
+                      <div class="quantity">
+                        <span class="minus1">-</span>
+                        <span class="num1">1</span>
+                        <span class="plus1">+</span>
+                      </div>
+                      <h6>$ 150.00</h6>
+                    </div>
+                  </li>
+                </ul>
+                <ul>
+                  <li><span>BR-22-0017</span> <p>Mortens amazing coffee</p></li>
+                  <li>
+                    <div class="price__quantity">
+                      <div class="quantity">
+                        <span class="minus2">-</span>
+                        <span class="num2">1</span>
+                        <span class="plus2">+</span>
+                      </div>
+                      <h6>$ 150.00</h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="price__total price__total__cart">
+                <h5>Total: <span>$ 300.00</span></h5>
+              </div>
+            </div>
+            <div class="modal__btn modal__btn-cart">
+              <a href="#" class="btns shoppings">Continue Shopping</a>
+              <a href="#" class="btns checkout">Proceed to checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ===================== SEARCH AREA START ===================== -->
+  <div class="search__area">
+    <div class="input__search">
+      <input type="text" placeholder="Br">
+      <a href="#"><i class="fa-sharp fa-regular fa-magnifying-glass"></i></a>
+    </div>
+    <div class="search__list">
+      <ul>
+        <li>
+          <span><i>BR</i>-22-0017</span>
+          <p>Mortens amazing coffee</p>
+        </li>
+        <li><span>23 in stock</span><p>$13.95 /kg</p></li>
+      </ul>
+      <ul>
+        <li>
+          <span><i>BR</i>-22-0017</span>
+          <p>Los Mangos Organic</p>
+        </li>
+        <li><span>23 in stock</span><p>$13.95 /kg</p></li>
+      </ul>
+      <ul>
+        <li>
+          <span><i>BR</i>-22-0017</span>
+          <p>Los Mangos Organic</p>
+        </li>
+        <li><span>23 in stock</span><p>$13.95 /kg</p></li>
+      </ul>
+    </div>
+  </div>
+  <!-- ===================== SEARCH AREA END ===================== -->
+
+  <!-- ===================== MAIN AREA START ===================== -->
+  <main class="overflow-hidden main">
+    <!-- ===================== OFFER AREA START ===================== -->
+    <section id="invoices__area" class="invoices__area">
+      <div class="container">
+        <div class="information__wrap">
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="login__information login__information2">
+                <div class="login__information__title">
+                  <h3>Welcome back!</h3>
+                  <span>Please fill in the fields to log in</span>
+                </div>
+                <form action="#">
+                  <div class="information__input__label">
+                    <div class="information__input">
+                      <label for="emails">Email*</label>
+                      <input type="email" placeholder="placeholder@email.com">
+                    </div>
+                    <div class="information__input">
+                      <label for="emails">Password*</label>
+                      <input type="password" placeholder="........">
+                    </div>
+                  </div>
+                  <div class="remember">
+                    <div class="check__area">
+                      <div class="custom__check">
+                        <input type="checkbox" id="check1">
+                        <div class="mark__check">
+                          <span><i class="fa-regular fa-check"></i></span>
+                        </div>
+                      </div>
+                      <label for="check1">Remember me</label>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                  </div>
+                  <a href="#" class="log__payment">Log in</a>
+                  <div class="account__creat">
+                    <p>Don’t have an account? <a href="#">Create new user</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== OFFER AREA END ===================== -->
+  </main>
+  <!-- ===================== MAIN AREA END ===================== -->
+
+  <!-- ===================== FOOTER AREA START ===================== -->
+  <footer id="footer__area" class="footer__area">
+    <div class="container">
+      <div class="footer__wrap">
+        <div class="row g-4">
+          <div class="col-lg-8">
+            <div class="footer__content">
+              <a href="#"><img src="assets/img/footer_logo.png" alt=""></a>
+              <div class="footer__contact">
+                <div class="contact__first">
+                  <h6><b>Adress</b></h6>
+                  <p>Tøyengata 29, 0578 Oslo, Norway <br>Mon - Fri, 8:00 - 16:00 CET</p>
+                </div>
+
+                <div class="contact__first">
+                  <h6><b>Get in touch</b></h6>
+                  <p>
+                    <a href="tel:4745874500">+47 458 74 500</a><br>
+                    <a href="mailto:">coffee@nordicapproach.no</a>
+                  </p>
+                </div>
+                <div class="footer__social">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer__list">
+              <ul>
+                <li><a href="#">Link En</a></li>
+                <li><a href="#">Link To</a></li>
+                <li><a href="#">Link Tre</a></li>
+                <li><a href="#">Link Fire</a></li>
+                <li><a href="#">Link Fem</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Link Seks</a></li>
+                <li><a href="#">Link Syv</a></li>
+                <li><a href="#">Link Atte</a></li>
+                <li><a href="#">Link Ni</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>2023 Nordic Approach. All rights reserved.</span>
+        <div class="privacy__policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Coolies Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ===================== FOOTER AREA END ===================== -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/app.js"></script>
+
+  <script>
+    AOS.init();
+    // data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: "aos-init", // class applied after initialization
+      animatedClassName: "aos-animate", // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: "ease", // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+    });
+  </script>
+</body>
+
+</html>

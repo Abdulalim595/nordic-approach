@@ -1,0 +1,599 @@
+
+@media (min-width: 320px) and (max-width: 1399px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1219px;
+  }
+
+}
+
+/* LG Device :1200px. */
+@media (min-width: 320px) and (max-width: 1199px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 960px;
+  }
+
+  .offer__title__btn h2 {
+    font-size: 36px;
+}
+
+  .filter__search {
+    padding: 0px 10px;
+}
+
+.filter__search span {
+    font-size: 20px;
+}
+
+  ul.ul__accordion {
+    display: none;
+}
+
+.disply__loyalty {
+  padding: 10px 13px;
+}
+
+.price_sec p {
+  font-size: 13px;
+}
+
+.description__content {
+  gap: 30px;
+}
+
+.description__single h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+section#descriptions__area {
+  padding: 60px 0px 50px;
+  margin-bottom: 50px;
+}
+
+.description__info > ul {
+  padding-bottom: 8px;
+}
+
+section#mortens__area {
+  margin-bottom: 90px;
+}
+
+.offer__home {
+  margin-bottom: 25px;
+}
+
+.input__field input {
+  padding: 12px;
+}
+
+form button {
+  height: 48px;
+}
+
+.information__left__title h2 {
+  font-size: 36px;
+}
+
+a.payment {
+  padding: 15px;
+}
+
+.invoices__filter {
+  display: none;
+}
+
+.invoices__table table thead tr th {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+section#invoices__area {
+  margin-bottom: 80px;
+}
+
+.account__setting h3 {
+  font-size: 23px;
+}
+
+.document__title h3 {
+  font-size: 22px;
+}
+
+.document__details {
+  padding: 25px 18px 30px;
+}
+
+.document__tetail__title {
+  margin-bottom: 24px;
+}
+
+.details__contact {
+  gap: 12px;
+}
+
+.contact__details {
+  padding-bottom: 12px;
+}
+
+.account__setting {
+  margin-top: 25px;
+}
+}
+
+/* MD Device :768px. */
+@media (min-width: 320px) and (max-width: 991px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 720px;
+  }
+
+  .accordion__btn h5 span {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.modal__content__btn {
+    padding-right: 35px;
+}
+
+.modal__content p:first-child {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.modal__btn {
+    margin-top: 30px;
+}
+
+.modal-content {
+    padding: 12px 12px 22px 22px;
+}
+
+.modal__btn a {
+    text-align: center;
+}
+
+  section#mortens__area {
+    margin-bottom: 40px;
+}
+
+  .nav-link {
+    font-size: 14px !important;
+    height: 40px !important;
+    padding: 0px 12px !important;
+}
+
+  .offer__home {
+    margin-bottom: 22px;
+}
+
+  .display__title__select {
+    font-size: 14px;
+    width: 185px;
+}
+
+select.form-select {
+    font-size: 14px;
+    width: 128px;
+}
+
+.offer__filter {
+  padding: 18px 12px;
+}
+
+.filter__search {
+  height: 45px;
+}
+
+.offer__display__title {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+  .privacy__policy {
+    gap: 34px;
+}
+
+.content__disply {
+  flex-direction: column;
+  gap: 23px;
+}
+
+.btn__disply__content {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.btn__disply__content a {
+  width: 100%;
+}
+
+.btn__disply__content > a, .btn__disply__content > button {
+  width: 100%;
+}
+
+  .footer__list {
+    justify-content: start;
+    gap: 100px;
+}
+
+.privacy__policy a:nth-child(2) {
+  display: none;
+}
+
+.copyright {
+  flex-direction: column-reverse;
+  gap: 26px;
+  text-align: center;
+}
+
+.footer__contact {
+  margin-top: 50px;
+}
+
+.footer__content > a img {
+  max-width: 260px;
+}
+
+.morten__top__content {
+  padding: 24px;
+}
+
+.morten__title__content ul {
+  gap: 20px;
+}
+
+.morten__title__content ul li {
+  font-size: 14px;
+}
+
+.stock__product h4 {
+  font-size: 24px;
+}
+
+section#offer__area {
+  margin-bottom: 38px;
+}
+
+section#descriptions__area {
+  padding: 40px 0px 30px;
+  margin-bottom: 30px;
+}
+
+.description__p p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.description__info > ul li {
+  font-size: 16px;
+}
+
+.morten__enjoy__title h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.morten__enjoy__title {
+  margin-bottom: 40px;
+}
+
+.content__disply p {
+  max-width: 100%;
+}
+
+.disply__loyalty {
+  max-width: 100%;
+}
+
+.description__info > ul li:last-child span {
+  font-size: 14px;
+  padding: 6px 12px;
+}
+
+.account__details__title {
+  margin-bottom: 22px;
+}
+
+.account__details__wrap {
+  padding: 30px;
+}
+
+section#invoices__area {
+  margin-bottom: 100px;
+}
+
+.customer__information__left {
+  max-width: 100%;
+}
+
+.login__information {
+  padding: 30px 20px 24px;
+}
+
+.log__payment, .customer__information__right > a {
+  margin-bottom: 30px;
+}
+
+.remember {
+  margin-bottom: 25px;
+}
+
+.information__input input {
+  padding: 12px;
+}
+
+.information__right__title {
+  margin-bottom: 18px;
+}
+
+.customer__information__right {
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.order__price h6 {
+  margin-bottom: 15px;
+}
+
+.order__price ul {
+  margin-bottom: 8px;
+}
+
+.order__summary {
+  gap: 28px;
+}
+
+.price__total h5 {
+  font-size: 18px;
+}
+
+.total__price span {
+  font-size: 12px;
+}
+
+.information__address {
+  gap: 30px;
+}
+
+.information__single__address {
+  padding-bottom: 15px;
+}
+
+.information__single__address h3 {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.information__single__address h6 {
+  margin-bottom: 12px;
+}
+
+.invoices__table table {
+  width: 960px;
+}
+
+.invoices__table {
+  overflow-x: scroll;
+}
+
+.document__list p {
+  font-size: 18px;
+}
+
+section#mypage__area {
+  margin-bottom: 80px;
+}
+}
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .header__logo {
+    width: 55px;
+}
+
+  .description__accordion {
+    display: block;
+  }
+
+  .offer__title__btn h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+  .offer__title {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 15px;
+}
+
+.offer__home {
+  margin-bottom: 0px;
+}
+
+.title__btn {
+  display: none;
+}
+
+.in__stock > span {
+  display: none;
+}
+
+.morten__top__btn {
+  margin-bottom: 14px;
+}
+
+.morten__top__btn a {
+  display: none;
+}
+
+.single__img__gallery {
+  width: 39px;
+}
+
+.accordion__btn h5 {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.btn__lists span {
+  font-size: 14px;
+}
+
+section#descriptions__area {
+  padding: 40px 0px 30px;
+  margin-bottom: 30px;
+}
+
+.morten__enjoy__title {
+  margin-bottom: 29px;
+}
+
+.morten__enjoy__title h2 {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.input__label {
+  grid-template-columns: repeat(1,1fr);
+}
+
+.account__details__title h3 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.information__left__title h2 {
+  font-size: 28px;
+}
+
+.information__title {
+  margin-bottom: 18px;
+}
+
+.thanks__content > p {
+  font-size: 16px;
+}
+
+section#invoices__area {
+  margin-bottom: 80px;
+}
+
+.document__list span {
+  font-size: 14px;
+}
+
+section#mypage__area {
+  margin-bottom: 50px;
+}
+
+.offer__filter {
+  display: none;
+}
+
+.offer__filter.active {
+  display: block;
+}
+
+
+.offer__display.active {
+  display: none;
+}
+
+.filter__check1 {
+  margin-bottom: 22px;
+}
+
+.offer__display {
+  margin-top: -24px;
+}
+
+.modal-content.modal-content2 {
+  padding: 50px 18px 20px;
+}
+
+.bill__modal__title h3 {
+  font-size: 26px;
+}
+
+.bill__modal__btns a {
+  height: 40px;
+  padding: 0px 20px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .offer__title__btn h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.modal-dialog {
+  width: 100%;
+  padding: 0px 1rem;
+  margin: 0 auto;
+}
+
+.account__details__wrap {
+  padding: 30px 16px;
+}
+
+.information__left__title h2 {
+  font-size: 26px;
+}
+
+section#invoices__area {
+  margin-bottom: 50px;
+}
+
+.modal__content.modal__content__cart > h5 {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.modal__price__list ul li span {
+  font-size: 14px;
+}
+
+.modal__price__list ul {
+  padding-bottom: 9px;
+  margin-bottom: 12px;
+}
+
+.modal__price__list ul li p {
+  font-size: 12px !important;
+}
+
+.price__quantity h6 {
+  font-size: 14px;
+}
+}
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 540px;
+  }
+
+}
